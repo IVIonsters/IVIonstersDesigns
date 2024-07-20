@@ -1,10 +1,7 @@
-import './App.css'
+import styles from './App.module.css'
 
 function App() {
-
-  return (
-    <>Hello, World</>
-  )
+  return <div className={styles.app}>Hello, world!</div>
 }
 
 export default App
