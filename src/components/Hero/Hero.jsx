@@ -9,15 +9,18 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Zachary Polof</h1>
                 <p className={styles.description}>
-                {'Passion for programming and am constantly looking for ways to expand my knowledge, Let\'s connect and build something to change the world.'}
+                    {'Passion for programming and am constantly looking for ways to expand my knowledge, Let\'s connect and build something to change the world.'}
                 </p>
+                <a href="mailto:ZacharyPolof@gmail.com" className={styles.contactBtn}>
+                    {"Let's Connect"}
+                </a>
+                </div>
                 <img
                     src={getImageUrl("hero/heroImage.png")}
                     alt="IVIonsters Designs Logo"
-                    className={styles.heroImg}/>
-                <div className={styles.topBluer}/>
-                <div className={styles.bottomBlur}/>
-            </div>
+                    className={styles.heroImg} />
+                <div className={styles.topBluer} />
+                <div className={styles.bottomBlur} />
         </section>
-                )
+    )
 }
