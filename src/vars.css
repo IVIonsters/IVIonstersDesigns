@@ -1,14 +1,14 @@
 :root {
     /* Colors */
-    --color-text: #f0f0f0; /* Light gray for text */
-    --color-primary: #b0b0b0; /* Gray for primary elements */
-    --color-secondary: #707070; /* Darker gray for secondary elements */
-    --color-dark: #404040; /* Even darker gray for dark elements */
-    --color-bg: #202020; /* Dark gray for background */
+  --color-text: #f0f0f0; /* Light gray for text */
+  --color-primary: #b0b0b0; /* Gray for primary elements */
+  --color-secondary: #707070; /* Darker gray for secondary elements */
+  --color-dark: #404040; /* Even darker gray for dark elements */
+  --color-bg: #202020; /* Dark gray for background */
 
-    /* Vibrant Accent Colors */
-    --color-accent-primary: #ff6f61; /* Vibrant red-orange */
-    --color-accent-secondary: #42a5f5; /* Vibrant blue */
+  /* Vibrant Accent Colours */
+  --color-accent-primary: #00afb5; /* Vibrant Teal */
+  --color-accent-secondary: #42a5f5; /* Vibrant blue */
 
     /* Fonts */
     --font-roboto: "Roboto";
