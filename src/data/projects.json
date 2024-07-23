@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Zozzled",
+        "imageSrc": "projects/zozzled.png",
+        "description": "An API bar that takes you back to the exuberant and intoxicating days of the Roaring 20s",
+        "skills": [
+            "JavaScript",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://zozzled-lk94.onrender.com",
+        "repo": "https://github.com/IVIonsters/Zozzled"
+    },
+    {
+        "title": "Journeys End",
+        "imageSrc": "projects/journeysend.png",
+        "description": "A travel app that highlights the weather and attractions of select cities nationwide.",
+        "skills": [
+            "Javascript",
+            "Express",
+            "Node"
+        ],
+        "demo": "https://ivionsters.github.io/Journeys-End/",
+        "repo": "https://github.com/IVIonsters/Journeys-End"
+    },
+    {
+        "title": "Inspire Sire",
+        "imageSrc": "projects/inspiresire.png",
+        "description": "Inspire-Sire is a random quote generation project that will let you tweet directly to your page.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://ivionsters.github.io/Inspire-Sire/",
+        "repo": "https://github.com/IVIonsters/Inspire-Sire"
+    },
+    {
+        "title": "Code Chronicles",
+        "imageSrc": "projects/codechronicles.png",
+        "description": "CMS style blog site for developers to share their stories and projects, and comment on other posts.",
+        "skills": [
+            "Docker",
+            "Express",
+            "Node",
+            "Postgres"
+        ],
+        "demo": "https://codechronicles-j469.onrender.com/",
+        "repo": "https://github.com/IVIonsters/CodeChronicles"
+    },
+    {
+        "title": "Private-Eye",
+        "imageSrc": "projects/privateeye.png",
+        "description": "CLI based management tool that allows you to manage departments, roles and employees.",
+        "skills": [
+            "React",
+            "Express",
+            "Node",
+            "Postgres"
+        ],
+        "demo": "https://drive.google.com/file/d/16EZZzoFx-sZPe3f8vG6GF3XuvOyS5omw/view",
+        "repo": "https://github.com/IVIonsters/Private-Eye"
+    },
+    {
+        "title": "Note-Taker",
+        "imageSrc": "projects/notetaker.gif",
+        "description": "Kanban style note taking app that allows you to create, edit and delete notes.",
+        "skills": [
+            "Javascript",
+            "Express",
+            "Node",
+            "NPM"
+        ],
+        "demo": "https://note-taker-ux3z.onrender.com/",
+        "repo": "https://github.com/IVIonsters/Note-Taker"
+    }
+]
