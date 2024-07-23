@@ -18,6 +18,36 @@ export const Contact = () => {
     message: ''
   });
 
+  // Function to validate email format
+  const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+
+  // Function to handle input field blur event and set validation errors
+  const handleBlur = (e) => {
+    const { name, value } = e.target;
+    let error = '';
+
+    if (value.trim() === '') {
+      error = `${name} is required`;
+    } else if (name === 'email' && !validateEmail(value)) {
+      error = 'Invalid email address';
+    }
+
+    setFormErrors({
+      ...formErrors,
+      [name]: error
+    });
+  };
+
+  // Function to handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here
+  };
+
+
   // Function to handle input changes and update formData state
   const handleChange = (e) => {
     const { name, value } = e.target;
