@@ -1,0 +1,35 @@
+@import "../../vars.css";
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6f61 0%, #4b4b4b7a 100%);
+  box-shadow: 0 16px 14px 0 #42a4f567;
+  padding: 18px 24px;
+  max-width: 345px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* Project image styling */
+.image {
+  margin-bottom: 26px;
+  border-radius: 15px;
+}
+
+/* Project Name Styling */
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Project Description styling */
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
