@@ -1,10 +1,10 @@
 :root {
     /* Colors */
-  --color-text: #f0f0f0; /* Light gray for text */
-  --color-primary: #b0b0b0; /* Gray for primary elements */
-  --color-secondary: #707070; /* Darker gray for secondary elements */
-  --color-dark: #404040; /* Even darker gray for dark elements */
-  --color-bg: #202020; /* Dark gray for background */
+  --color-text: #45a29e; /* Light gray for text */
+  --color-primary: #c5c6c7; /* Gray for primary elements */
+  --color-secondary: #0b0c10; /* Darker gray for secondary elements */
+  --color-dark: #929292; /* Even darker gray for dark elements */
+  --color-bg: #1F2833; /* Dark gray for background */
 
   /* Vibrant Accent Colours */
   --color-accent-primary: #00afb5; /* Vibrant Teal */
@@ -13,3 +13,21 @@
     /* Fonts */
     --font-roboto: "Roboto";
 }
+
+/* 
+
+
+
+--color-text: #f0f0f0; 
+--color-primary: #b0b0b0; 
+--color-secondary: #707070; 
+--color-dark: #404040; 
+--color-bg: #202020; 
+
+
+
+
+
+
+
+*/
