@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-/* Container */
+/* Container styling */
 .container {
   color: var(--color-text);
   margin-top: 120px;
@@ -27,7 +27,7 @@
   letter-spacing: 2px;
 }
 
-/* Link styling */
+/* Link styling container */
 .links {
   display: flex;
   flex-direction: column;
@@ -36,12 +36,14 @@
   gap: 26px;
 }
 
+/* Individual link styling */
 .link {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 
+/* Anchor tag styling within links */
 .link a {
   color: var(--color-text);
   text-decoration: none;
@@ -50,7 +52,69 @@
   letter-spacing: 1.5px;
 }
 
-/* Media Screen */
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+/* Form group styling for each input/textarea field */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Label styling */
+.formGroup label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Input and textarea styling */
+.formGroup input,
+.formGroup textarea {
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid var(--color-primary);
+  border-radius: 5px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Error state styling for input and textarea */
+.formGroup input.error,
+.formGroup textarea.error {
+  border-color: red;
+}
+
+/* Error message styling */
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+.submitButton {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.submitButton:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Responsive design adjustments for smaller screens */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
