@@ -2,69 +2,123 @@
 
 /* Container */
 .container {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background: linear-gradient(180deg, rgba(0, 175, 181, 0.25) 0%, #4b4b4b7a 100%);
-  box-shadow: 0 16px 14px 0 rgba(0, 90, 94, 0.644);
-  padding: 18px 24px;
-  max-width: 345px;
+  position: relative;
+  width: 400px; /* 15% wider */
+  height: 340px; /* 15% shorter */
+  border-radius: 20px;
+  overflow: hidden;
   margin-right: 20px;
   margin-top: 20px;
+  background: var(--color-bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, border 0.3s ease-in-out;
+  border: none; /* No border initially */
 }
 
-/* Project image styling */
+/* Add hover state for enlarging and border */
+.container:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  border: 2px solid black; /* Black border on hover */
+}
+
+/* Image Container */
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
 .image {
-  margin-bottom: 26px;
-  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container */
+  transition: filter 0.3s ease-in-out;
 }
 
-/* Project Name Styling */
-.title {
-  font-size: 25px;
+.container:hover .image {
+  filter: grayscale(100%);
+}
+
+/* Details Container */
+.details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* White transparent overlay */
+  color: var(--color-dark);
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container:hover .details {
+  opacity: 1;
+}
+
+.details h3 {
+  font-size: 24px;
   font-weight: 700;
+  margin: 10px 0;
 }
 
-/* Project Description styling */
-.description {
-  margin-top: 6px;
-  font-size: 25px;
+.details p {
+  margin: 10px 0;
+  font-size: 16px;
   font-weight: 400;
 }
 
-/* Skills / Language Styling */
+/* Skills */
 .skills {
-  width: 100%;
-  margin-top: 14px;
+  margin: 10px 0;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
   list-style: none;
+  justify-content: center;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
-  padding: 2px 22px;
+  background: var(--color-secondary);
+  padding: 2px 10px;
 }
 
-/* Links styling */
+/* Links */
 .links {
+  margin-top: 10px;
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-top: 26px;
+  justify-content: center;
+  gap: 10px;
 }
 
 .link {
-  color: var(--color-text);
+  color: var(--color-dark);
   background: var(--color-primary);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 14px;
   font-weight: 600;
   border-radius: 100px;
-  padding: 1px 22px;
+  padding: 5px 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.link:hover {
+  background: rgba(0, 175, 181, 0.7);
+}
+
+/* Only blur other containers when one is hovered */
+.projects:hover .container:not(:hover) {
+  filter: blur(3px);
 }
