@@ -75,6 +75,10 @@ export const Contact = () => {
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://www.github.com/IVIonsters">github.com/IVIonsters</a>
         </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Resume icon" />
+          <a href="assets\Mock-Resume.pdf" download="Zachary_Polof_Resume.pdf">Download Resume</a>
+        </li>
       </ul>
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
