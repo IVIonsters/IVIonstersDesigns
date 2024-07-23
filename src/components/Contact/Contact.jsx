@@ -1,9 +1,31 @@
+/* eslint-disable no-undef */
 import React from 'react';
-
 import styles from './Contact.module.css';
 import { getImageUrl } from '../../utils';
 
 export const Contact = () => {
+  // State to manage form data
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  // State to manage form errors
+  const [formErrors, setFormErrors] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  // Function to handle input changes and update formData state
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
