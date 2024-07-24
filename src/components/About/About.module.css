@@ -59,11 +59,17 @@ img {
             rgba(0, 235, 252, 0.65) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: 0.4s;
+    transition: background-size 0.4s, color 0.4s; /* Transition for background and text color */
 }
 
 .aboutItem:hover {
     background-size: 100% 100%;
+    color: white; /* Change text color to white on hover */
+}
+
+.aboutItemText h3,
+.aboutItemText p {
+    transition: color 0.4s; /* Smooth transition for text color */
 }
 
 .aboutItem h3 {
