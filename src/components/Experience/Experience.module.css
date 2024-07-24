@@ -39,7 +39,7 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -76,8 +76,8 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, rgba(0, 175, 181, 0.25) 0%, rgba(25, 55, 109, 0) 100%);
+  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.795) 0%, rgba(0, 0, 0, 0.623) 100%);
   border-radius: 10px;
   padding: 24px;
 }
