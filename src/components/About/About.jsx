@@ -18,7 +18,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Frontend Developer</h3>
                             <p>
-                                I am a passionate frontend developer with a strong background in building responsive and optimized websites. With extensive experience working with a variety of frameworks and technologies.
+                                I am a passionate frontend developer focused on building responsive, user-friendly websites. I have hands-on experience working with various frameworks and technologies to create optimized, efficient web applications.
                             </p>
                         </div>
                     </li>
@@ -27,7 +27,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Backend Developer</h3>
                             <p>
-                                I have extensive experience in developing fast and optimized back-end systems and APIs using multiple frameworks. My expertise spans across technologies like Node.js, Express, MongoDB, and PostgreSQL, enabling me to deliver high-performance solutions for diverse project needs.
+                                I have developed back-end systems and APIs using technologies like Node.js, Express, MongoDB, and PostgreSQL. I enjoy creating solutions that deliver strong performance and meet the needs of diverse projects.
                             </p>
                         </div>
                     </li>
@@ -36,7 +36,7 @@ export const About = () => {
                         <div className={styles.aboutItemText}>
                             <h3>Docker</h3>
                             <p>
-                                I have extensive experience in containerization using Docker, enabling seamless development and deployment workflows. My proficiency includes creating and managing Docker containers, Docker Compose, and optimizing applications for scalable, efficient performance.
+                                I have experience with Docker and containerization, enabling smoother development and deployment workflows. I’ve worked with Docker containers and Docker Compose to help optimize applications for better scalability and performance.
                             </p>
                         </div>
                     </li>

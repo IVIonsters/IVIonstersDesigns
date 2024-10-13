@@ -12,7 +12,7 @@
     },
     {
         "role": "Zero to Mastery Graduate",
-        "organisation": "Fullstack Academy",
+        "organization": "Fullstack Academy",
         "startDate": "February, 2024",
         "endDate": "Present",
         "experiences": [
@@ -22,13 +22,13 @@
         "imageSrc": "history/ztm.png"
     },
     {
-        "role": "Director of Operations, Co-Founder, and Lead Developer",
-        "organisation": "Klutch Kickers",
-        "startDate": "January, 2018",
-        "endDate": "December, 2022",
+        "role": "Software Development Intern",
+        "organization": "Patching Software Solutions",
+        "startDate": "August 2024",
+        "endDate": "Present",
         "experiences": [
-            "Operations management",
-            "Business development"
+            "React Components Development",
+            "Docker Containerization"
         ],
         "imageSrc": "history/klutch.png"
     }
